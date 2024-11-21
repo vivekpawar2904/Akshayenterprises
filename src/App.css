@@ -1,0 +1,59 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+/* Features Section */
+#features {
+  background: #f6f6f6;
+  padding: 50px 0; /* Add padding for spacing */
+}
+
+#features .container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: space-between; /* Space items evenly */
+}
+
+#features .feature {
+  flex: 1 1 30%; /* Allow each feature to take up to 30% of the width */
+  margin: 15px; /* Add margin for spacing */
+  text-align: center; /* Center text */
+}
+
+#features i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#features h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#features p {
+  font-size: 15px;
+  color: #777;
+}
